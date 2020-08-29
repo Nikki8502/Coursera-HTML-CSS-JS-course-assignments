@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;             
+    }
+    
+    body{
+    background-color: rgb(104, 158, 151);
+    }  
+    /***************************Desktop view******************** */
+    
+    @media (min-width: 992px) {
+        .col-lg-4{
+        float: left;
+        width: 33.33%
+        }
+        }
+        
+    /***********************Tablet view ************************/
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .col-md-6,.col-md-12 {
+        float: left;  
+        margin-bottom:10px;          
+        }
+        .col-md-6 {
+            width: 50%;
+        }
+        .col-md-12 {
+            width: 100%;
+        }
+        }
+    
+    /**************************** Mobile view *********************/
+    
+    @media (max-width: 767px) {
+        .col-sm-12 {
+            float: left; 
+            margin-bottom: 10px; 
+            width:100%;    
+        }
+        }
+    .container{
+        position:relative;
+        margin-right:10px;  
+        border:1px solid black;
+        background-color:darkgray;  
+        
+        }
+    h1{
+        text-align: center;
+        color:rgb(72, 19, 141);
+        }
+        
+    h3{
+        display:inline-flexbox;
+        margin-top:0px;
+        margin-bottom:0px;
+        padding:5px;
+        margin:0px;
+        float:right;
+        border:1px solid black;
+        font-size: medium; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    p{
+        position:relative;
+        margin-right:auto;
+        margin-left:auto;
+        padding:10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:brown;
+    }
+    div{
+        position:relative;
+        height:150px;
+    }
+    .row{
+        display:inline;
+    }
+    #first{     
+        background-color: burlywood;
+        color:darkblue;
+        text-align:center;
+    }
+    #second{      
+        background-color:black;
+        color:deeppink;
+        text-align:center;
+    }
+    #third{         
+        background-color: crimson;
+        text-align:center;
+    }
